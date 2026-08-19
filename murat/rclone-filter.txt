@@ -1,0 +1,163 @@
+# ====================================================================
+# Orion Sistemi: Eksiksiz & Kararlı Yazılımcı Filtresi v7.0
+# ====================================================================
+
+# --- 1. Sürüm Kontrol & Platformlar ---
+# - **/.git/
+- **/.git/hooks/
+# - **/.github/
+- **/.gitlab-ci.yml
+- **/.gitlab/
+- **/.circleci/
+- **/.svn/
+- **/.hg/
+# - **/.gitattributes
+# - **/.gitignore
+# - **/.gitmodules
+
+
+
+# --- 2. Ortak Yazılım Bağımlılıkları (Tüm Diller) ---
+
+# JS / TS / Web
+- **/node_modules/
+- **/bower_components/
+- **/.npm/
+- **/.yarn/
+- **/.pnpm-store/
+- **/.next/
+- **/.nuxt/
+- **/.svelte-kit/
+- **/.turbo/
+- **/.parcel-cache/
+- **/dist/
+- **/.swc/
+- **/.astro/
+- **/.expo/
+- **/*.tsbuildinfo
+
+
+# Python
+- **/__pycache__/
+- **/*.pyc
+- **/*.pyo
+- **/*.pyd
+- **/.venv/
+- **/venv/
+- **/env/
+- **/.pytest_cache/
+- **/.mypy_cache/
+- **/.tox/
+- **/.ruff_cache/
+- **/.ipydb/
+
+
+# Go
+- **/vendor/
+- **/pkg/mod/
+
+# Rust
+- **/target/
+- **/.cargo/
+- **/.rustup/
+- **/*.rlib
+- **/*.rmeta
+
+# Zig (YENİ)
+- **/zig-cache/
+- **/zig-out/
+- **/.zig-cache/
+
+# Diğerleri (Java, Ruby, Dart, Elixir)
+- **/.bundle/
+- **/vendor/bundle/
+- **/.dart_tool/
+- **/.pub-cache/
+- **/.stack-work/
+- **/dist-newstyle/
+- **/_build/
+- **/deps/
+- **/.gradle/
+- **/.m2/repository/
+
+# --- 3. Derleme Çıktıları & Binary Dosyalar ---
+- **/build/
+- **/bin/
+- **/obj/
+- **/out/
+- **/*.o
+- **/*.obj
+- **/*.a
+- **/*.lib
+- **/*.so
+- **/*.dll
+- **/*.dylib
+- **/*.exe
+- **/*.app
+- **/*.apk
+- **/*.ipa
+- **/*.pdb
+
+- **/cmake-build-*/
+- **/CMakeFiles/
+- **/CMakeCache.txt
+
+# --- 4. Editör & IDE Dosyaları ---
+- **/.vscode/
+- **/.idea/
+- **/.settings/
+- **/.project
+- **/.classpath
+- **/*.swp
+- **/*.swo
+- **/*.bak
+- **/*~
+- **/.direnv/
+- **/.envrc
+
+# --- 5. Masaüstü, Tema & Symlink Sorunları ---
+- **/gtk-4.0/**
+- **/gtk-4.0
+- **/.config/river
+- **/.config/kwm
+- **/river-pro-scripts/
+- **/.tmux/plugins/
+
+# --- 6. Sistem Çöpleri & Quota Düşmanları ---
+- **/.cache/
+- **/.thumbnails/
+- **/.local/share/Trash/
+- **/.Trash-*/
+- **/*.log
+- **/temp/
+- **/tmp/
+- **/*.part
+- **/*.crdownload
+- **/.DS_Store
+- Thumbs.db
+
+# --- 7. Tarayıcı Profilleri ---
+- **/.config/google-chrome/
+- **/.config/chromium/
+- **/.config/BraveSoftware/
+- **/.config/microsoft-edge/
+- **/.mozilla/firefox/*/cache2/
+- **/.mozilla/firefox/*/jumpListCache/
+- **/.mozilla/firefox/*/startupCache/
+- **/.mozilla/firefox/*/storage/
+
+# --- 8. Büyük Medya & Disk İmajları ---
+- **/*.iso
+- **/*.img
+- **/*.qcow2
+- **/*.vdi
+- **/*.vmdk
+
+# --- 9. Özel Projeler & Sertifikalar ---
+- **/*.pem
+- **/*.key
+- **/*.crt
+
+
+
+
